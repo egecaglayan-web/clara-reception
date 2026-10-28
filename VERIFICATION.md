@@ -16,6 +16,7 @@
 | `python -m app.demo` | Exit 0; offer, booking, reschedule, cancellation and human handoff |
 | Demo languages | Turkish, English and Arabic |
 | Demo delivery summary | 10 synthetic deliveries, 0 interrupted operations, no review needed |
+| GitHub Actions (ubuntu-latest, Python 3.12) | `pytest -q`, `app.check` and `app.demo` passed after adding `pytest.ini` |
 | `pip check` | No broken dependencies |
 | Scan of sources for Anthropic key / private key patterns | No matches; real secret files were not read |
 
@@ -47,4 +48,4 @@ Test events, the test database and the server were removed after the live test.
 
 ## Not verified
 
-Docker image build, a Linux CI run, Railway deployment, delivery to external (non-Gmail) mailboxes, and use with real patients or a real clinic's calendars. These must not be presented as done or production-ready.
+Docker image build, Railway deployment, delivery to external (non-Gmail) mailboxes, and use with real patients or a real clinic's calendars. These must not be presented as done or production-ready.
