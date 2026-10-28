@@ -1,0 +1,118 @@
+
+--- offer: offers ---
+Merhaba Demo,
+
+Kontrol ettiğim uygun saatler aşağıda. Lütfen tek bir seçeneği açıkça seçin. Henüz randevu oluşturulmadı.
+
+1. Perşembe, 29 Ekim 2026 saat 09:00 — Dr. Mehmet Kaya
+2. Perşembe, 29 Ekim 2026 saat 09:30 — Dr. Mehmet Kaya
+3. Perşembe, 29 Ekim 2026 saat 10:00 — Dr. Mehmet Kaya
+
+Best regards,
+Clara – AI Receptionist
+Demo Clinic | Demo phone
+
+--- choice: booked ---
+Merhaba Demo,
+
+Randevunuz takvimden doğrulandı ve oluşturuldu.
+
+Dr. Mehmet Kaya (Dermatology)
+Perşembe, 29 Ekim 2026 saat 09:30
+Demo address — presentation only
+
+Best regards,
+Clara – AI Receptionist
+Demo Clinic | Demo phone
+
+--- reschedule: offers ---
+Merhaba Demo,
+
+Kontrol ettiğim uygun saatler aşağıda. Lütfen tek bir seçeneği açıkça seçin. Henüz randevu oluşturulmadı.
+
+1. Cuma, 30 Ekim 2026 saat 14:30 — Dr. Mehmet Kaya
+
+Best regards,
+Clara – AI Receptionist
+Demo Clinic | Demo phone
+
+--- new-time: rescheduled ---
+Merhaba Demo,
+
+Randevunuzun yeni saati takvimden doğrulandı.
+
+Dr. Mehmet Kaya (Dermatology)
+Cuma, 30 Ekim 2026 saat 14:30
+Demo address — presentation only
+
+Best regards,
+Clara – AI Receptionist
+Demo Clinic | Demo phone
+
+--- cancel-request: confirm_cancel ---
+Merhaba Demo,
+
+Aşağıdaki randevuyu iptal etmek istediğinizi açıkça onaylar mısınız?
+
+Dr. Mehmet Kaya (Dermatology)
+Cuma, 30 Ekim 2026 saat 14:30
+Demo address — presentation only
+
+Best regards,
+Clara – AI Receptionist
+Demo Clinic | Demo phone
+
+--- cancel-confirm: cancelled ---
+Merhaba Demo,
+
+Seçtiğiniz randevunun iptali takvim tarafından doğrulandı.
+
+Best regards,
+Clara – AI Receptionist
+Demo Clinic | Demo phone
+
+--- human: handoff ---
+Merhaba,
+
+Talebinizi resepsiyon ekibine iletiyorum. Bir ekip üyesi yanıt verecek.
+
+Best regards,
+Clara – AI Receptionist
+Demo Clinic | Demo phone
+
+--- english: info ---
+Hello,
+
+Our clinic information:
+
+Demo Clinic
+Monday–Friday 09:00–17:00; lunch 12:00–13:00. Closed on weekends.
+Demo address — presentation only
+Demo phone
+Dr. Ayşe Demir — General Practice
+Dr. Mehmet Kaya — Dermatology
+Dr. Sara Haddad — Pediatrics
+
+Best regards,
+Clara – AI Receptionist
+Demo Clinic | Demo phone
+
+--- arabic: info ---
+مرحبا,
+
+معلومات عيادتنا:
+
+Demo Clinic
+الاثنين–الجمعة 09:00–17:00؛ استراحة 12:00–13:00. مغلق في عطلة نهاية الأسبوع.
+Demo address — presentation only
+Demo phone
+Dr. Ayşe Demir — General Practice
+Dr. Mehmet Kaya — Dermatology
+Dr. Sara Haddad — Pediatrics
+
+Best regards,
+Clara – AI Receptionist
+Demo Clinic | Demo phone
+
+DEMO OK: offers, booking, rescheduling, cancellation, human handoff and three languages verified.
+{'demo': True, 'deliveries': {'sent': 10}, 'interrupted': 0, 'needs_review': False}

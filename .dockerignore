@@ -1,0 +1,15 @@
+.git
+.env
+.env.*
+*.pem
+*.key
+*credentials*.json
+*service-account*.json
+.venv
+venv
+__pycache__
+.pytest_cache
+data
+*.sqlite*
+*.db*
+*.log
